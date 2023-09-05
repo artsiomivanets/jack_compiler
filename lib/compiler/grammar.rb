@@ -63,7 +63,7 @@ module Grammar
     end
 
     def execute
-      raise unless Grammar.get_token.values.map(&:to_sym).include?(name)
+      raise unless Grammar.get_token.values.include?(name.to_s)
 
       Grammar.take_token!
     end
@@ -87,7 +87,8 @@ module Grammar
       return unless result
 
       {
-        name => result
+        type: name.to_s,
+        body: result
       }
     end
   end

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": "<"
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "sign"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "string_constant",
+    "value": "negative"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  }
+]
