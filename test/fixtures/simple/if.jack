@@ -1,0 +1,7 @@
+// This file is part of www.nand2tetris.org
+
+/** Simple Version */
+if (x < 0) {
+  let sign = "negative";
+}                        // There is no else keyword in the Square files.
+
