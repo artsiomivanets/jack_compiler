@@ -7,15 +7,43 @@ class TestCompiler < Minitest::Test
   def test_tokenize_simple_if
     symbols = File.read('test/fixtures/simple/if.jack')
     tokens = Tokenizer.call({ symbols: symbols })
-    expected = File.read('test/fixtures/simple/tokenizer_if.json')
-    assert_equal(JSON.parse(expected, symbolize_names: true), tokens)
+    expected = File.read('test/fixtures/simple/tokenizer_if.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(tokens))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
   end
 
-  def test_parser_simple_if
+  def test_parser_simple_while
     symbols = File.read('test/fixtures/simple/while.jack')
     tokens = Tokenizer.call({ symbols: symbols })
     ast = Parser.call({ tokens: tokens })
-    expected = File.read('test/fixtures/simple/while_parser.json')
-    assert_equal(JSON.parse(expected, symbolize_names: true), ast)
+    expected = File.read('test/fixtures/simple/while_parser.json').strip
+    f = Tempfile.new('aaaaa')
+    f.write(JSON.pretty_generate(ast))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
+
+  def test_tokenize_expression_less_main
+    symbols = File.read('test/fixtures/expression_less/Main.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    expected = File.read('test/fixtures/expression_less/main_t.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(tokens))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
   end
 end

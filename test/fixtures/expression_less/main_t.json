@@ -1,0 +1,250 @@
+[
+  {
+    "type": "keyword",
+    "value": "class"
+  },
+  {
+    "type": "identifier",
+    "value": "Main"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "static"
+  },
+  {
+    "type": "keyword",
+    "value": "boolean"
+  },
+  {
+    "type": "identifier",
+    "value": "test"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "function"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "main"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "identifier",
+    "value": "SquareGame"
+  },
+  {
+    "type": "identifier",
+    "value": "game"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "game"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "game"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "game"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "run"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "game"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "function"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "more"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "keyword",
+    "value": "boolean"
+  },
+  {
+    "type": "identifier",
+    "value": "b"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "b"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "else"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  }
+]

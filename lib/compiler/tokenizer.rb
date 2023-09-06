@@ -1,5 +1,5 @@
 module Tokenizer
-  KEYWORDS = %w[class construction method field static
+  KEYWORDS = %w[class construction function method field static
                 var int char boolean void true false null this
                 let do if else while return]
 
@@ -8,7 +8,7 @@ module Tokenizer
   def self.process(c, acc)
     case acc[:state]
     when 'common'
-      return acc if [' ', "\n"].include?(c)
+      return acc if [' ', "\n", "\r"].include?(c)
 
       return process(c, acc.merge(state: 'comment')) if c == '/'
 
@@ -46,7 +46,7 @@ module Tokenizer
       else
         type = KEYWORDS.include?(acc[:word]) ? 'keyword' : 'identifier'
         word = { type: type, value: acc[:word] }
-        acc.merge(state: 'common', word: '', words: acc[:words] + [word])
+        process(c, acc.merge(state: 'common', word: '', words: acc[:words] + [word]))
       end
     end
   end
