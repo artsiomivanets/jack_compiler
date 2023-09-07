@@ -1,121 +1,137 @@
 [
   {
     "type": "statements",
-    "body": {
-      "type": "while_statement",
-      "body": [
-        {
-          "type": "keyword",
-          "value": "while"
-        },
-        {
-          "type": "symbol",
-          "value": "("
-        },
-        {
-          "type": "expression",
-          "body": [
-            {
-              "type": "term",
-              "body": {
-                "type": "var_name",
-                "body": [
-                  {
-                    "type": "identifier",
-                    "value": "count"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "op",
-              "body": {
-                "type": "symbol",
-                "value": "<"
-              }
-            },
-            {
-              "type": "term",
-              "body": {
-                "type": "integer_constant",
-                "value": "100"
-              }
-            }
-          ]
-        },
-        {
-          "type": "symbol",
-          "value": ")"
-        },
-        {
-          "type": "symbol",
-          "value": "{"
-        },
-        {
-          "type": "statements",
-          "body": {
-            "type": "let_statement",
+    "body": [
+      {
+        "type": "while_statement",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "while"
+          },
+          {
+            "type": "symbol",
+            "value": "("
+          },
+          {
+            "type": "expression",
             "body": [
               {
-                "type": "keyword",
-                "value": "let"
-              },
-              {
-                "type": "var_name",
+                "type": "term",
                 "body": [
                   {
-                    "type": "identifier",
-                    "value": "count"
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "count"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "symbol",
-                "value": "="
-              },
-              {
-                "type": "expression",
+                "type": "op",
                 "body": [
                   {
-                    "type": "term",
-                    "body": {
-                      "type": "var_name",
-                      "body": [
-                        {
-                          "type": "identifier",
-                          "value": "count"
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "type": "op",
-                    "body": {
-                      "type": "symbol",
-                      "value": "+"
-                    }
-                  },
-                  {
-                    "type": "term",
-                    "body": {
-                      "type": "integer_constant",
-                      "value": "1"
-                    }
+                    "type": "symbol",
+                    "value": "<"
                   }
                 ]
               },
               {
-                "type": "symbol",
-                "value": ";"
+                "type": "term",
+                "body": [
+                  {
+                    "type": "integer_constant",
+                    "value": "100"
+                  }
+                ]
               }
             ]
+          },
+          {
+            "type": "symbol",
+            "value": ")"
+          },
+          {
+            "type": "symbol",
+            "value": "{"
+          },
+          {
+            "type": "statements",
+            "body": [
+              {
+                "type": "let_statement",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "let"
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "count"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": "="
+                  },
+                  {
+                    "type": "expression",
+                    "body": [
+                      {
+                        "type": "term",
+                        "body": [
+                          {
+                            "type": "var_name",
+                            "body": [
+                              {
+                                "type": "identifier",
+                                "value": "count"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "op",
+                        "body": [
+                          {
+                            "type": "symbol",
+                            "value": "+"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "term",
+                        "body": [
+                          {
+                            "type": "integer_constant",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "}"
           }
-        },
-        {
-          "type": "symbol",
-          "value": "}"
-        }
-      ]
-    }
+        ]
+      }
+    ]
   }
 ]

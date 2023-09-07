@@ -46,4 +46,20 @@ class TestCompiler < Minitest::Test
     f.close
     f.unlink
   end
+
+  def test_parser_expression_less_main
+    symbols = File.read('test/fixtures/expression_less/Main.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    ast = Parser.call({ tokens: tokens })
+    binding.pry
+    expected = File.read('test/fixtures/expression_less/main.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(ast))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
 end

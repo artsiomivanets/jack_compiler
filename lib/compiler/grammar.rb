@@ -11,7 +11,7 @@ module Grammar
   def process(ast)
     non_terminals = Grammars.grammars.values.select { |i| i[:rule] }.map { |i| i[:value] }
 
-    ast + non_terminals.map(&:execute).compact
+    ast + non_terminals.map(&:call).compact
   end
 
   def self.take_token!
@@ -38,7 +38,7 @@ module Grammar
 
     @grammars[name] = {
       value: NonTerminal.new(name),
-      rule: Rule.instance_eval(&block)
+      rule: Rule.new.instance_eval(&block)
     }
   end
 
@@ -62,7 +62,7 @@ module Grammar
       @name = name
     end
 
-    def execute
+    def call
       raise unless Grammar.get_token.values.include?(name.to_s)
 
       Grammar.take_token!
@@ -80,11 +80,13 @@ module Grammar
       Grammars.grammars[name][:rule]
     end
 
-    def execute
+    def call
       return unless Grammar.get_token
 
+      binding.pry if Grammar.get_token[:value].to_s == 'do'
       result = rule.call
-      return unless result
+      binding.pry if Grammar.get_token[:value].to_s == 'do'
+      return if !result && !rule.optional?
 
       {
         type: name.to_s,
@@ -93,41 +95,93 @@ module Grammar
     end
   end
 
-  class Rule
-    def self.prepare(methods)
-      methods.map { |m| Grammars.grammars[m]&.dig(:value) || NonTerminal.new(m) }
+  class ZeroOrMore
+    def initialize(methods)
+      @methods = methods
     end
 
-    def self.zero_or_one(methods)
-      methods = prepare(methods)
-      proc do
-        methods.filter_map do |i|
-          i.execute
-        rescue StandardError => e
-        end.first
-      end
-    end
-
-    def self.required(methods)
-      methods = prepare(methods)
-      proc do
-        methods.map(&:execute).compact
+    def call
+      @methods.filter_map do |i|
+        i.call
       rescue StandardError => e
       end
     end
+  end
 
-    def self.optional_group(methods)
-      required(methods)
+  class Required
+    def initialize(methods)
+      @methods = methods
     end
 
-    def self.one_of(methods)
-      methods = prepare(methods)
-      proc do
-        methods.filter_map do |i|
-          i.execute
-        rescue StandardError => e
-        end.first
+    def call
+      @methods.map(&:call).compact
+    rescue StandardError => e
+    end
+  end
+
+  class OneOf
+    def initialize(methods)
+      @methods = methods
+    end
+
+    def call
+      @methods.lazy.filter_map do |i|
+        i.call
+      rescue StandardError => e
+      end.first
+    end
+  end
+
+  class Rule
+    attr_accessor :rules
+
+    def initialize
+      @methods = []
+      @rules = []
+      @optional = false
+    end
+
+    def call
+      binding.pry if Grammar.get_token[:value].to_s == 'do'
+      result = @rules.map(&:call).flatten.compact
+      binding.pry if Grammar.get_token[:value].to_s == 'do'
+      result.empty? ? nil : result
+    end
+
+    def prepare(methods)
+      methods.map { |m| Grammars.grammars[m]&.dig(:value) || NonTerminal.new(m) }
+    end
+
+    def optional(&block)
+      @optional = true
+      instance_eval(&block)
+    end
+
+    def optional?
+      @optional
+    end
+
+    def zero_or_more(methods)
+      @rules.push ZeroOrMore.new(prepare(methods))
+      self
+    end
+
+    def required(methods = [], &block)
+      if block_given?
+        @rules.push Required.new(Rule.new.instance_eval(&block).rules)
+      else
+        @rules.push Required.new(prepare(methods))
       end
+      self
+    end
+
+    def one_of(methods = [], &block)
+      if block_given?
+        @rules.push OneOf.new(Rule.new.instance_eval(&block).rules)
+      else
+        @rules.push OneOf.new(prepare(methods))
+      end
+      self
     end
   end
 end
