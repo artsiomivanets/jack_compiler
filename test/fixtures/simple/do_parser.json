@@ -1,0 +1,62 @@
+[
+  {
+    "type": "statements",
+    "body": [
+      {
+        "type": "do_statement",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "do"
+          },
+          {
+            "type": "subroutine_call",
+            "body": [
+              {
+                "type": "var_name",
+                "body": [
+                  {
+                    "type": "identifier",
+                    "value": "game"
+                  }
+                ]
+              },
+              {
+                "type": "symbol",
+                "value": "."
+              },
+              {
+                "type": "subroutine_name",
+                "body": [
+                  {
+                    "type": "identifier",
+                    "value": "run"
+                  }
+                ]
+              },
+              {
+                "type": "symbol",
+                "value": "("
+              },
+              {
+                "type": "expression_list",
+                "body": [
+
+                ]
+              },
+              {
+                "type": "symbol",
+                "value": ")"
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ";"
+          }
+        ]
+      }
+    ]
+  }
+]
+

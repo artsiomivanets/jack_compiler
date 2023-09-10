@@ -1,0 +1,76 @@
+[
+  {
+    "type": "statements",
+    "body": [
+      {
+        "type": "if_statement",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "symbol",
+            "value": "("
+          },
+          {
+            "type": "expression",
+            "body": [
+              {
+                "type": "term",
+                "body": [
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "b"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ")"
+          },
+          {
+            "type": "symbol",
+            "value": "{"
+          },
+          {
+            "type": "statements",
+            "body": [
+
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "}"
+          },
+          {
+            "type": "keyword",
+            "value": "else"
+          },
+          {
+            "type": "symbol",
+            "value": "{"
+          },
+          {
+            "type": "statements",
+            "body": [
+
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "}"
+          }
+        ]
+      }
+    ]
+  }
+]
+

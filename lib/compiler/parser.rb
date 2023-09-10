@@ -1,12 +1,17 @@
 class Grammars
   extend Grammar
 
-  terminals %i[if class int char boolean
+  terminals %i[if else class int char boolean
                constructor function method
                void static field
                var true false null this
                do return let while identifier integer_constant
-               { } ( ) + - * / & | < > = , ;]
+               string_constant
+               { } ( ) + - * / & | < > = , . ;]
+
+  declare_terminal_rule :class_identifier do |token|
+    token[:type] == 'identifier' && /^[A-Z]/.match(token[:value])
+  end
 
   non_terminal :statements do
     zero_or_more %i[let_statement if_statement while_statement do_statement return_statement]
@@ -28,7 +33,8 @@ class Grammars
   end
 
   non_terminal :return_statement do
-    required %i[return ;]
+    required %i[return]
+    required %i[;]
   end
 
   non_terminal :do_statement do
@@ -70,6 +76,7 @@ class Grammars
     required %i[{]
     zero_or_more %i[var_dec]
     required %i[statements]
+    required %i[}]
   end
 
   non_terminal :var_dec do
@@ -79,7 +86,7 @@ class Grammars
   end
 
   non_terminal :class_name do
-    required %i[identifier]
+    required %i[class_identifier]
   end
 
   non_terminal :subroutine_name do
@@ -91,11 +98,14 @@ class Grammars
   end
 
   non_terminal :expression do
-    required %i[term op term]
+    required %i[term]
+    optional do
+      required %i[op term]
+    end
   end
 
   non_terminal :term do
-    one_of %i[integer_constant var_name]
+    one_of %i[integer_constant var_name string_constant]
   end
 
   non_terminal :subroutine_call do
@@ -104,10 +114,18 @@ class Grammars
       required do
         one_of %i[class_name var_name]
         required %i[.]
-        required %i[subroutine_name]
+        required %i[subroutine_name ( expression_list )]
       end
     end
   end
+
+  non_terminal :expression_list do
+    optional do
+      required %i[expression]
+      # zero_or_more %i[, expression]
+    end
+  end
+
   non_terminal :op do
     one_of %i[+ - * / & | < > =]
   end

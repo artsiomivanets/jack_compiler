@@ -1,0 +1,114 @@
+[
+  {
+    "type": "statements",
+    "body": [
+      {
+        "type": "if_statement",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "symbol",
+            "value": "("
+          },
+          {
+            "type": "expression",
+            "body": [
+              {
+                "type": "term",
+                "body": [
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "x"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "op",
+                "body": [
+                  {
+                    "type": "symbol",
+                    "value": "<"
+                  }
+                ]
+              },
+              {
+                "type": "term",
+                "body": [
+                  {
+                    "type": "integer_constant",
+                    "value": "0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ")"
+          },
+          {
+            "type": "symbol",
+            "value": "{"
+          },
+          {
+            "type": "statements",
+            "body": [
+              {
+                "type": "let_statement",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "let"
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "sign"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": "="
+                  },
+                  {
+                    "type": "expression",
+                    "body": [
+                      {
+                        "type": "term",
+                        "body": [
+                          {
+                            "type": "string_constant",
+                            "value": "negative"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "}"
+          }
+        ]
+      }
+    ]
+  }
+]
