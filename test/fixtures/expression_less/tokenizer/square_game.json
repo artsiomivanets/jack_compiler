@@ -1,0 +1,1066 @@
+[
+  {
+    "type": "keyword",
+    "value": "class"
+  },
+  {
+    "type": "identifier",
+    "value": "SquareGame"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "identifier",
+    "value": "Square"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "constructor"
+  },
+  {
+    "type": "identifier",
+    "value": "SquareGame"
+  },
+  {
+    "type": "identifier",
+    "value": "new"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Memory"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "deAlloc"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveUp"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveDown"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveLeft"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveRight"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Sys"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "wait"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "run"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "keyword",
+    "value": "char"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "keyword",
+    "value": "boolean"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "decSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "incSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  }
+]

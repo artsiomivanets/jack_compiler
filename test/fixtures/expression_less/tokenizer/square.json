@@ -1,0 +1,1790 @@
+[
+  {
+    "type": "keyword",
+    "value": "class"
+  },
+  {
+    "type": "identifier",
+    "value": "Square"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "constructor"
+  },
+  {
+    "type": "identifier",
+    "value": "Square"
+  },
+  {
+    "type": "identifier",
+    "value": "new"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "Ax"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "Ay"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "Asize"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Ax"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Ay"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Asize"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "draw"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Memory"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "deAlloc"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "keyword",
+    "value": "this"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "draw"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "erase"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "incSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "erase"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "draw"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "decSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "erase"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "size"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "draw"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveUp"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveDown"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveLeft"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveRight"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "setColor"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Screen"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "drawRectangle"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "x"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "identifier",
+    "value": "y"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  }
+]
