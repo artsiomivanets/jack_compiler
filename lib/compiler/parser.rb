@@ -55,7 +55,9 @@ class Grammars
   non_terminal :class_var_dec do
     one_of %i[static field]
     required %i[type var_name]
-    zero_or_more %i[, var_name]
+    zero_or_more do
+      required %i[, var_name]
+    end
     required %i[;]
   end
 
@@ -68,7 +70,9 @@ class Grammars
   non_terminal :parameter_list do
     optional do
       required %i[type var_name]
-      zero_or_more %i[, var_name]
+      zero_or_more do
+        required %i[, type var_name]
+      end
     end
   end
 
@@ -81,7 +85,9 @@ class Grammars
 
   non_terminal :var_dec do
     required %i[var type var_name]
-    zero_or_more %i[, var_name]
+    zero_or_more do
+      required %i[, var_name]
+    end
     required %i[;]
   end
 
@@ -122,7 +128,9 @@ class Grammars
   non_terminal :expression_list do
     optional do
       required %i[expression]
-      # zero_or_more %i[, expression]
+      zero_or_more do
+        required %i[, expression]
+      end
     end
   end
 

@@ -96,11 +96,13 @@ module Grammar
     def call
       return unless Grammar.get_token
 
+      binding.pry
       begin
         result = rule.call
       rescue StandardError
         result = nil
       end
+      binding.pry
 
       return unless result
 
@@ -217,8 +219,12 @@ module Grammar
       self
     end
 
-    def zero_or_more(methods)
-      @rules.push ZeroOrMore.new(name, prepare(methods))
+    def zero_or_more(methods = [], &block)
+      if block_given?
+        @rules.push ZeroOrMore.new(name, Rule.new(name).instance_eval(&block).rules)
+      else
+        @rules.push ZeroOrMore.new(name, prepare(methods))
+      end
       self
     end
 
