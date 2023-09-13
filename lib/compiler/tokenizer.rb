@@ -10,7 +10,7 @@ module Tokenizer
     when 'common'
       return acc if [' ', "\n", "\r"].include?(c)
 
-      return process(c, acc.merge(state: 'comment')) if c == '/'
+      return process(c, acc.merge(state: 'slash')) if c == '/'
 
       return process(c, acc.merge(state: 'symbol')) if SYMBOLS.include?(c)
 
@@ -19,6 +19,11 @@ module Tokenizer
       return acc.merge(state: 'string_constant') if c == '"'
 
       process(c, acc.merge(state: 'word'))
+    when 'slash'
+      return process(c, acc.merge(state: 'common', words: acc[:words] + acc[:temp])) if c == ' '
+      return process(c, acc.merge(state: 'comment', temp: nil)) if ['/', '*'].include?(c) && acc[:temp]
+
+      acc.merge({ temp: [{ type: 'symbol', value: c }] })
     when 'comment'
       return acc unless c == "\n"
 

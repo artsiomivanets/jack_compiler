@@ -61,4 +61,19 @@ class TestTokenizer < Minitest::Test
     f.close
     f.unlink
   end
+
+  def test_with_expression_main
+    symbols = File.read('test/fixtures/with_expressions/Main.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    expected = File.read('test/fixtures/with_expressions/tokenizer/main.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(tokens))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
 end
