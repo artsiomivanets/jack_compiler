@@ -76,4 +76,34 @@ class TestTokenizer < Minitest::Test
     f.close
     f.unlink
   end
+
+  def test_with_expression_square
+    symbols = File.read('test/fixtures/with_expressions/Square.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    expected = File.read('test/fixtures/with_expressions/tokenizer/square.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(tokens))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
+
+  def test_with_expression_square_game
+    symbols = File.read('test/fixtures/with_expressions/SquareGame.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    expected = File.read('test/fixtures/with_expressions/tokenizer/square_game.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(tokens))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
 end

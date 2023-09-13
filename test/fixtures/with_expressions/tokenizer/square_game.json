@@ -1,0 +1,1254 @@
+[
+  {
+    "type": "keyword",
+    "value": "class"
+  },
+  {
+    "type": "identifier",
+    "value": "SquareGame"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "identifier",
+    "value": "Square"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "field"
+  },
+  {
+    "type": "keyword",
+    "value": "int"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "constructor"
+  },
+  {
+    "type": "identifier",
+    "value": "SquareGame"
+  },
+  {
+    "type": "identifier",
+    "value": "new"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "new"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ","
+  },
+  {
+    "type": "integer_constant",
+    "value": "30"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "keyword",
+    "value": "this"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "dispose"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Memory"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "deAlloc"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "keyword",
+    "value": "this"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "1"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveUp"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "2"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveDown"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "3"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveLeft"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "4"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "moveRight"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "Sys"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "wait"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "integer_constant",
+    "value": "5"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "method"
+  },
+  {
+    "type": "keyword",
+    "value": "void"
+  },
+  {
+    "type": "identifier",
+    "value": "run"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "keyword",
+    "value": "char"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "var"
+  },
+  {
+    "type": "keyword",
+    "value": "boolean"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "keyword",
+    "value": "false"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": "~"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Keyboard"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "keyPressed"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "81"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "exit"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "keyword",
+    "value": "true"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "90"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "decSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "88"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "square"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "incSize"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "131"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "1"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "133"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "2"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "130"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "3"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "if"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "132"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "direction"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "4"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "while"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": "~"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "integer_constant",
+    "value": "0"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": "{"
+  },
+  {
+    "type": "keyword",
+    "value": "let"
+  },
+  {
+    "type": "identifier",
+    "value": "key"
+  },
+  {
+    "type": "symbol",
+    "value": "="
+  },
+  {
+    "type": "identifier",
+    "value": "Keyboard"
+  },
+  {
+    "type": "symbol",
+    "value": "."
+  },
+  {
+    "type": "identifier",
+    "value": "keyPressed"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "keyword",
+    "value": "do"
+  },
+  {
+    "type": "identifier",
+    "value": "moveSquare"
+  },
+  {
+    "type": "symbol",
+    "value": "("
+  },
+  {
+    "type": "symbol",
+    "value": ")"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "keyword",
+    "value": "return"
+  },
+  {
+    "type": "symbol",
+    "value": ";"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  },
+  {
+    "type": "symbol",
+    "value": "}"
+  }
+]
