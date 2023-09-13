@@ -5,7 +5,7 @@ class Grammars
                constructor function method
                void static field
                var true false null this
-               do return let while identifier integer_constant
+               do return let while identifier integer_constant keyword
                string_constant
                { } ( ) + - * / & | < > = , . ;]
 
@@ -34,6 +34,9 @@ class Grammars
 
   non_terminal :return_statement do
     required %i[return]
+    optional do
+      required %i[expression]
+    end
     required %i[;]
   end
 
@@ -111,7 +114,7 @@ class Grammars
   end
 
   non_terminal :term do
-    one_of %i[integer_constant var_name string_constant]
+    one_of %i[integer_constant var_name string_constant keyword]
   end
 
   non_terminal :subroutine_call do

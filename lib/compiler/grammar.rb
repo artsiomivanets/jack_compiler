@@ -96,13 +96,11 @@ module Grammar
     def call
       return unless Grammar.get_token
 
-      binding.pry
       begin
         result = rule.call
       rescue StandardError
         result = nil
       end
-      binding.pry
 
       return unless result
 
