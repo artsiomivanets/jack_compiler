@@ -9,7 +9,7 @@ module Grammar
   end
 
   def process(ast)
-    non_terminals = Grammars.grammars.values.select { |i| i[:rule] }.map { |i| i[:value] }
+    non_terminals = Grammars.grammars.values.select { |i| i[:production] }.map { |i| i[:value] }
 
     ast + non_terminals.map(&:call).compact.reject { |i| i[:body].empty? }
   end
@@ -38,7 +38,7 @@ module Grammar
 
     @grammars[name] = {
       value: NonTerminal.new(name),
-      rule: Rule.new(name).instance_eval(&block)
+      production: Production.new(name).instance_eval(&block)
     }
   end
 
@@ -90,7 +90,7 @@ module Grammar
     end
 
     def rule
-      Grammars.grammars[name][:rule]
+      Grammars.grammars[name][:production]
     end
 
     def call
@@ -195,7 +195,7 @@ module Grammar
     end
   end
 
-  class Rule
+  class Production
     attr_accessor :rules, :name
 
     def initialize(name)
@@ -213,13 +213,13 @@ module Grammar
     end
 
     def optional(&block)
-      @rules.push Optional.new(name, Rule.new(name).instance_eval(&block).rules)
+      @rules.push Optional.new(name, Production.new(name).instance_eval(&block).rules)
       self
     end
 
     def zero_or_more(methods = [], &block)
       if block_given?
-        @rules.push ZeroOrMore.new(name, Rule.new(name).instance_eval(&block).rules)
+        @rules.push ZeroOrMore.new(name, Production.new(name).instance_eval(&block).rules)
       else
         @rules.push ZeroOrMore.new(name, prepare(methods))
       end
@@ -228,7 +228,7 @@ module Grammar
 
     def required(methods = [], &block)
       if block_given?
-        @rules.push Required.new(name, Rule.new(name).instance_eval(&block).rules)
+        @rules.push Required.new(name, Production.new(name).instance_eval(&block).rules)
       else
         @rules.push Required.new(name, prepare(methods))
       end
@@ -237,7 +237,7 @@ module Grammar
 
     def one_of(methods = [], &block)
       if block_given?
-        @rules.push OneOf.new(name, Rule.new(name).instance_eval(&block).rules)
+        @rules.push OneOf.new(name, Production.new(name).instance_eval(&block).rules)
       else
         @rules.push OneOf.new(name, prepare(methods))
       end
