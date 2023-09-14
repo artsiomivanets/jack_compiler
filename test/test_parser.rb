@@ -110,4 +110,52 @@ class TestCompiler < Minitest::Test
     f.close
     f.unlink
   end
+
+  def test_with_expressions_main
+    symbols = File.read('test/fixtures/with_expressions/Main.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    ast = Parser.call({ tokens: tokens })
+    expected = File.read('test/fixtures/with_expressions/parser/main.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(ast))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
+
+  def test_with_expressions_square
+    symbols = File.read('test/fixtures/with_expressions/Square.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    ast = Parser.call({ tokens: tokens })
+    expected = File.read('test/fixtures/with_expressions/parser/square.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(ast))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
+
+  def test_with_expressions_square_game
+    symbols = File.read('test/fixtures/with_expressions/SquareGame.jack')
+    tokens = Tokenizer.call({ symbols: symbols })
+    ast = Parser.call({ tokens: tokens })
+    expected = File.read('test/fixtures/with_expressions/parser/square_game.json').strip
+    f = Tempfile.new('foo')
+    f.write(JSON.pretty_generate(ast))
+    f.rewind
+    actual = f.read
+    p = diff(expected, actual)
+    puts p unless p.include?('No visible difference in the String')
+    assert { p.include?('No visible difference in the String') }
+    f.close
+    f.unlink
+  end
 end

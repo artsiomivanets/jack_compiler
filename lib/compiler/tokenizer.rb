@@ -21,13 +21,18 @@ module Tokenizer
       process(c, acc.merge(state: 'word'))
     when 'slash'
       return process(c, acc.merge(state: 'common', words: acc[:words] + acc[:temp])) if c == ' '
-      return process(c, acc.merge(state: 'comment', temp: nil)) if ['/', '*'].include?(c) && acc[:temp]
+      return process(c, acc.merge(state: 'comment', temp: nil)) if c == '/' && acc[:temp]
+      return process(c, acc.merge(state: 'ml-comment', temp: nil)) if c == '*' && acc[:temp]
 
       acc.merge({ temp: [{ type: 'symbol', value: c }] })
     when 'comment'
       return acc unless c == "\n"
 
       process(c, acc.merge(state: 'common'))
+    when 'ml-comment'
+      return acc.merge(state: 'common', temp: nil) if acc[:temp] == '*' && c == '/'
+
+      acc.merge(temp: c)
     when 'symbol'
       word = { type: 'symbol', value: c }
       acc.merge({ state: 'common', word: '', words: acc[:words] + [word] })

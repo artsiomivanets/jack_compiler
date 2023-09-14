@@ -7,7 +7,7 @@ class Grammars
                var true false null this
                do return let while identifier integer_constant keyword
                string_constant
-               { } ( ) + - * / & | < > = , . ;]
+               [ ] { } ( ) + - ~ * / & | < > = , . ;]
 
   declare_terminal_rule :class_identifier do |token|
     token[:type] == 'identifier' && /^[A-Z]/.match(token[:value])
@@ -22,7 +22,11 @@ class Grammars
   end
 
   non_terminal :let_statement do
-    required %i[let var_name = expression ;]
+    required %i[let var_name]
+    optional do
+      required %i[[ expression ]]
+    end
+    required %i[= expression ;]
   end
 
   non_terminal :if_statement do
@@ -114,7 +118,13 @@ class Grammars
   end
 
   non_terminal :term do
-    one_of %i[integer_constant var_name string_constant keyword]
+    one_of do
+      required %i[subroutine_call]
+      required %i[var_name [ expression ]]
+      required %i[( expression )]
+      required %i[unary_op term]
+      one_of %i[integer_constant string_constant keyword var_name]
+    end
   end
 
   non_terminal :subroutine_call do
@@ -139,6 +149,10 @@ class Grammars
 
   non_terminal :op do
     one_of %i[+ - * / & | < > =]
+  end
+
+  non_terminal :unary_op do
+    one_of %i[- ~]
   end
 end
 

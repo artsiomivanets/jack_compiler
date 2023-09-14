@@ -1,0 +1,1023 @@
+[
+  {
+    "type": "class_entity",
+    "body": [
+      {
+        "type": "keyword",
+        "value": "class"
+      },
+      {
+        "type": "class_name",
+        "body": [
+          {
+            "type": "identifier",
+            "value": "Main"
+          }
+        ]
+      },
+      {
+        "type": "symbol",
+        "value": "{"
+      },
+      {
+        "type": "class_var_dec",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "static"
+          },
+          {
+            "type": "type",
+            "body": [
+              {
+                "type": "keyword",
+                "value": "boolean"
+              }
+            ]
+          },
+          {
+            "type": "var_name",
+            "body": [
+              {
+                "type": "identifier",
+                "value": "test"
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ";"
+          }
+        ]
+      },
+      {
+        "type": "subroutine_dec",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "function"
+          },
+          {
+            "type": "keyword",
+            "value": "void"
+          },
+          {
+            "type": "subroutine_name",
+            "body": [
+              {
+                "type": "identifier",
+                "value": "main"
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "("
+          },
+          {
+            "type": "parameter_list",
+            "body": [
+
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ")"
+          },
+          {
+            "type": "subroutine_body",
+            "body": [
+              {
+                "type": "symbol",
+                "value": "{"
+              },
+              {
+                "type": "var_dec",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "var"
+                  },
+                  {
+                    "type": "type",
+                    "body": [
+                      {
+                        "type": "class_name",
+                        "body": [
+                          {
+                            "type": "identifier",
+                            "value": "SquareGame"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "game"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              },
+              {
+                "type": "statements",
+                "body": [
+                  {
+                    "type": "let_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "let"
+                      },
+                      {
+                        "type": "var_name",
+                        "body": [
+                          {
+                            "type": "identifier",
+                            "value": "game"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "="
+                      },
+                      {
+                        "type": "expression",
+                        "body": [
+                          {
+                            "type": "term",
+                            "body": [
+                              {
+                                "type": "subroutine_call",
+                                "body": [
+                                  {
+                                    "type": "class_name",
+                                    "body": [
+                                      {
+                                        "type": "identifier",
+                                        "value": "SquareGame"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "symbol",
+                                    "value": "."
+                                  },
+                                  {
+                                    "type": "subroutine_name",
+                                    "body": [
+                                      {
+                                        "type": "identifier",
+                                        "value": "new"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "symbol",
+                                    "value": "("
+                                  },
+                                  {
+                                    "type": "expression_list",
+                                    "body": [
+
+                                    ]
+                                  },
+                                  {
+                                    "type": "symbol",
+                                    "value": ")"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ";"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "do_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "do"
+                      },
+                      {
+                        "type": "subroutine_call",
+                        "body": [
+                          {
+                            "type": "var_name",
+                            "body": [
+                              {
+                                "type": "identifier",
+                                "value": "game"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": "."
+                          },
+                          {
+                            "type": "subroutine_name",
+                            "body": [
+                              {
+                                "type": "identifier",
+                                "value": "run"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": "("
+                          },
+                          {
+                            "type": "expression_list",
+                            "body": [
+
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": ")"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ";"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "do_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "do"
+                      },
+                      {
+                        "type": "subroutine_call",
+                        "body": [
+                          {
+                            "type": "var_name",
+                            "body": [
+                              {
+                                "type": "identifier",
+                                "value": "game"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": "."
+                          },
+                          {
+                            "type": "subroutine_name",
+                            "body": [
+                              {
+                                "type": "identifier",
+                                "value": "dispose"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": "("
+                          },
+                          {
+                            "type": "expression_list",
+                            "body": [
+
+                            ]
+                          },
+                          {
+                            "type": "symbol",
+                            "value": ")"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ";"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "return_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "return"
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ";"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "symbol",
+                "value": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "subroutine_dec",
+        "body": [
+          {
+            "type": "keyword",
+            "value": "function"
+          },
+          {
+            "type": "keyword",
+            "value": "void"
+          },
+          {
+            "type": "subroutine_name",
+            "body": [
+              {
+                "type": "identifier",
+                "value": "more"
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": "("
+          },
+          {
+            "type": "parameter_list",
+            "body": [
+
+            ]
+          },
+          {
+            "type": "symbol",
+            "value": ")"
+          },
+          {
+            "type": "subroutine_body",
+            "body": [
+              {
+                "type": "symbol",
+                "value": "{"
+              },
+              {
+                "type": "var_dec",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "var"
+                  },
+                  {
+                    "type": "type",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "int"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "i"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ","
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "j"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              },
+              {
+                "type": "var_dec",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "var"
+                  },
+                  {
+                    "type": "type",
+                    "body": [
+                      {
+                        "type": "class_name",
+                        "body": [
+                          {
+                            "type": "identifier",
+                            "value": "String"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "s"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              },
+              {
+                "type": "var_dec",
+                "body": [
+                  {
+                    "type": "keyword",
+                    "value": "var"
+                  },
+                  {
+                    "type": "type",
+                    "body": [
+                      {
+                        "type": "class_name",
+                        "body": [
+                          {
+                            "type": "identifier",
+                            "value": "Array"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var_name",
+                    "body": [
+                      {
+                        "type": "identifier",
+                        "value": "a"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "symbol",
+                    "value": ";"
+                  }
+                ]
+              },
+              {
+                "type": "statements",
+                "body": [
+                  {
+                    "type": "if_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "if"
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "("
+                      },
+                      {
+                        "type": "expression",
+                        "body": [
+                          {
+                            "type": "term",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "false"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ")"
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "{"
+                      },
+                      {
+                        "type": "statements",
+                        "body": [
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "s"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "string_constant",
+                                        "value": "string constant"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "s"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "keyword",
+                                        "value": "null"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "a"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "["
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "integer_constant",
+                                        "value": "1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "]"
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "var_name",
+                                        "body": [
+                                          {
+                                            "type": "identifier",
+                                            "value": "a"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "symbol",
+                                        "value": "["
+                                      },
+                                      {
+                                        "type": "expression",
+                                        "body": [
+                                          {
+                                            "type": "term",
+                                            "body": [
+                                              {
+                                                "type": "integer_constant",
+                                                "value": "2"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "symbol",
+                                        "value": "]"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "}"
+                      },
+                      {
+                        "type": "keyword",
+                        "value": "else"
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "{"
+                      },
+                      {
+                        "type": "statements",
+                        "body": [
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "i"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "var_name",
+                                        "body": [
+                                          {
+                                            "type": "identifier",
+                                            "value": "i"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "op",
+                                    "body": [
+                                      {
+                                        "type": "symbol",
+                                        "value": "*"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "symbol",
+                                        "value": "("
+                                      },
+                                      {
+                                        "type": "expression",
+                                        "body": [
+                                          {
+                                            "type": "term",
+                                            "body": [
+                                              {
+                                                "type": "unary_op",
+                                                "body": [
+                                                  {
+                                                    "type": "symbol",
+                                                    "value": "-"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "term",
+                                                "body": [
+                                                  {
+                                                    "type": "var_name",
+                                                    "body": [
+                                                      {
+                                                        "type": "identifier",
+                                                        "value": "j"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "symbol",
+                                        "value": ")"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "j"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "var_name",
+                                        "body": [
+                                          {
+                                            "type": "identifier",
+                                            "value": "j"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "op",
+                                    "body": [
+                                      {
+                                        "type": "symbol",
+                                        "value": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "symbol",
+                                        "value": "("
+                                      },
+                                      {
+                                        "type": "expression",
+                                        "body": [
+                                          {
+                                            "type": "term",
+                                            "body": [
+                                              {
+                                                "type": "unary_op",
+                                                "body": [
+                                                  {
+                                                    "type": "symbol",
+                                                    "value": "-"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "term",
+                                                "body": [
+                                                  {
+                                                    "type": "integer_constant",
+                                                    "value": "2"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "symbol",
+                                        "value": ")"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "let_statement",
+                            "body": [
+                              {
+                                "type": "keyword",
+                                "value": "let"
+                              },
+                              {
+                                "type": "var_name",
+                                "body": [
+                                  {
+                                    "type": "identifier",
+                                    "value": "i"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": "="
+                              },
+                              {
+                                "type": "expression",
+                                "body": [
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "var_name",
+                                        "body": [
+                                          {
+                                            "type": "identifier",
+                                            "value": "i"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "op",
+                                    "body": [
+                                      {
+                                        "type": "symbol",
+                                        "value": "|"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "term",
+                                    "body": [
+                                      {
+                                        "type": "var_name",
+                                        "body": [
+                                          {
+                                            "type": "identifier",
+                                            "value": "j"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "symbol",
+                                "value": ";"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "symbol",
+                        "value": "}"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "return_statement",
+                    "body": [
+                      {
+                        "type": "keyword",
+                        "value": "return"
+                      },
+                      {
+                        "type": "symbol",
+                        "value": ";"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "symbol",
+                "value": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "symbol",
+        "value": "}"
+      }
+    ]
+  }
+]
