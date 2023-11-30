@@ -8,7 +8,7 @@ module Tokenizer
   def self.process(c, acc)
     case acc[:state]
     when 'common'
-      return acc if [' ', "\n", "\r"].include?(c)
+      return acc if [' ', "\n", "\r", "\t"].include?(c)
 
       return process(c, acc.merge(state: 'slash')) if c == '/'
 
