@@ -5,6 +5,7 @@ require 'pry'
 require_relative 'compiler/grammar'
 require_relative 'compiler/version'
 require_relative 'compiler/tokenizer'
+require_relative 'compiler/code_generator'
 require_relative 'compiler/parser'
 require 'nokogiri'
 
